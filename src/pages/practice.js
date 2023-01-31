@@ -6,7 +6,7 @@ export default function Practice() {
 
     return (
         <Layout>
-            <h2>practice page</h2>
+            <h2>Merd's bio here</h2>
         </Layout>
         
     )
