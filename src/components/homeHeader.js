@@ -46,7 +46,7 @@ const Header = () => {
              </div>
             </h2> 
     
-            <div className={headerStyles.welcome}>Mary Favro is available for speaking engagments. <Link style={{textDecoration:'none' }} to='/contact'>Contact</Link></div>
+            <div className={headerStyles.welcome}>Mary Favro is available for speaking engagments. <Link style={{textDecoration:'none', color:'green' }} to='/contact'>Contact</Link></div>
             <nav>
             <ul className={headerStyles.navList}>
                 <li>
