@@ -1,0 +1,42 @@
+.container > * {
+    margin-left:15px;
+}
+
+img {
+    max-width: 30%;
+    // 
+}
+
+.imgCrop {
+    // position: absolute;
+    // clip-path: inset(100px, 70px);
+    // opacity: 45%;
+    
+}
+
+.topBottom {
+    margin: 25px 0px;
+}
+
+.row {
+    display:flex;
+    
+}
+
+.ptitle {
+    font-weight: 800;
+    top: 30px;
+    left: 20px;
+    position:relative;
+    width: 100%;
+    height:auto;
+    
+    padding: 13px;
+}
+
+.titleSummary {
+    i {
+        padding: 13px;
+        margin-left: 25px;
+    }
+}

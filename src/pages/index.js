@@ -131,7 +131,13 @@ const IndexPage = () => {
     
       
       <Layout>
-      <span style={headingAccentStyles}>Empowering women to create, discover, and delight</span>
+      
+      <br></br>
+        <quote style={{fontWeight:900 }}>
+        <i>Love many things, for therein lies strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.</i> 
+        -Vincent van Gogh
+
+        </quote>
         <p>Available for speaking <Link to="/contact">Contact me.</Link> </p>
       </Layout>
     

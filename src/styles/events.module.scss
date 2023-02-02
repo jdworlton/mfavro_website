@@ -1,0 +1,70 @@
+.container {
+    display:flex;
+    
+    
+}
+
+.box {
+    // border:3px solid orange;
+    // min-width: 50%;
+    padding: 1em;
+    display:flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+    // img {
+    //     height:auto;
+    // }
+
+    .mormonScholars {
+        height:auto;
+        // width:auto;
+        
+    }
+
+     .creativity {
+        // height:auto;
+        width:1000px;
+        margin-bottom:35px;
+
+    }
+
+    .title {
+        font-size: 1.6em;
+        // color:red;
+        // width:25em;
+        
+        
+        
+    }
+
+    .date {
+        font-size: 0.9em;
+        
+    }
+
+    // .date:last-of-type {
+    //     padding:26px;
+    // }
+}
+
+
+li {
+    list-style: none;
+    font-size: 1.5em;
+    // padding-bottom:2em;
+    margin-bottom: 1em;
+    flex-direction: column;
+
+    p {
+        font-size: .9em;
+        padding:3px;
+        font-style: italic;
+    }
+}
+
+ul {
+    display:flex;
+    
+}

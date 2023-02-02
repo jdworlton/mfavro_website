@@ -30,8 +30,10 @@ const Header = () => {
                 <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to='/'>
                     {/* {data.site.siteMetadata.title} */}
                     Mary Favro
+                    
                 </Link>
             </h1>
+            <sub> Empowering women to create, discover, and delight</sub>
             <nav>
             <ul className={headerStyles.navList}>
                 <li>
@@ -40,8 +42,13 @@ const Header = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/practice">
-                        Practice
+                    <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/pubs-present">
+                        Publications + Presentations
+                    </Link>
+                </li>
+                <li>
+                    <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/events">
+                        Upcoming Events
                     </Link>
                 </li>
                 <li>
