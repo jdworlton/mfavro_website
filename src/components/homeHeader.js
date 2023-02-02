@@ -26,19 +26,27 @@ const Header = () => {
 
     // inline syntax:
     //<ul style={{listStyle:'none'}}>
-    // const testTxt = 'howdy, sir'
     return (
-        
         <header className={headerStyles.header}>
             <h1>
                 <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to='/'>
                     {/* {data.site.siteMetadata.title} */}
-                    {/* <img src={vg_header} /> */}
-                    Empowering women to create, discover, and delight (rotating quote)
-                    {/* {randomQuote} */}
+                    <img src={vg_header} />
+                    {/* Empowering women to create, discover, and delight */}
+                    
                 </Link>
             </h1>
-            
+            <h2>
+            <div style={{textAlign:'center', fontSize: '1.1em', fontFamily:'Droid Sans'}}>
+                <quote style={{ lineHeight: '0.9', fontFamily: 'Marck Script'}}>
+                    <i className={headerStyles.quoteColor}>Love many things, for therein lies strength, and whosoever loves much 
+                        performs much, and can accomplish much, and what is done in love is done well.</i> 
+                    <br></br><span style={{float:'right', fontWeight:'500'}} className={headerStyles.quoteColor}><b>Vincent van Gogh</b></span>
+                </quote>
+             </div>
+            </h2> 
+    
+            <div className={headerStyles.welcome}>Mary Favro is available for speaking engagments. <Link style={{textDecoration:'none' }} to='/contact'>Contact</Link></div>
             <nav>
             <ul className={headerStyles.navList}>
                 <li>
@@ -68,6 +76,7 @@ const Header = () => {
                 </li>
             </ul>
             </nav>
+            
         </header>
     )
 }

@@ -1,7 +1,13 @@
 import * as React from "react"
 import { Link } from 'gatsby'
 
+// import Layout from "../components/layout"
+import LayoutHome from "../components/layoutHome"
+import HomeHeader from "../components/homeHeader"
 import Layout from "../components/layout"
+
+import vanGogh_lilies from '../images/vanGogh_lillies.png'
+import * as homepageStyles from '../styles/index.scss'
 
 const pageStyles = {
   color: "#232129",
@@ -130,16 +136,14 @@ const IndexPage = () => {
   return (
     
       
-      <Layout>
+      <LayoutHome>
       
-      <br></br>
-        <quote style={{fontWeight:900 }}>
-        <i>Love many things, for therein lies strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is done well.</i> 
-        -Vincent van Gogh
-
-        </quote>
-        <p>Available for speaking <Link to="/contact">Contact me.</Link> </p>
-      </Layout>
+        {/* <div>
+          <img src={vanGogh_lilies} className={homepageStyles.imgPubPresent} />
+        </div> */}
+        
+        {/* <p style={{fontFamily: 'Itim'}}>Mary Favro -- lecturer, author, mother. Available for speaking. <Link to="/contact">Contact</Link> </p> */}
+      </LayoutHome>
     
   )
 }
