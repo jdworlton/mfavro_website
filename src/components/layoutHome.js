@@ -2,7 +2,7 @@ import React from 'react'
 
 
 // import Header from './header' 
-import HomeHeader from './homeheader' 
+import HomeHeader from './homeHeader' 
 import Footer from "./footer"
 import '../styles/index.scss'
 import * as layoutStyles from './layout.module.scss'
